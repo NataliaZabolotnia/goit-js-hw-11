@@ -19,7 +19,7 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
   captionPosition: 'bottom',
 });
-form.addEventListener("submit",handlesubmit);
+
 
 async  function handlesubmit(event){
 event.preventDefault();
@@ -66,3 +66,4 @@ finally {
     input.value="";
 }
 }
+form.addEventListener("submit",handlesubmit);
